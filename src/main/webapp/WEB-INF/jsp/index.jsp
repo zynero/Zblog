@@ -107,8 +107,7 @@
         <li class="rss_button"><a target="_blank" href="${g.domain}/feed"></a></li>
         <li class="github_button"><a target="_blank" href="https://github.com/dongfangshangren"></a></li>
       </ul>
-      <p>You can show your site introduction by using Site Introduction Widget. 
-       You also can show Social Icon on upper part, and search form at bottom. </p>
+      <p>开发工程师</p>
       <div id="search_area" class="clearfix">
         <form method="get" action="${g.domain}">
            <div class="search_input">

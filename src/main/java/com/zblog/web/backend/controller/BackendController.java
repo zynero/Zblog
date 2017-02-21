@@ -92,11 +92,11 @@ public class BackendController{
 
   @RequestMapping(value = "/login", method = RequestMethod.POST)
   public String dashboard(LoginForm form, HttpServletRequest request, HttpServletResponse response){
-    MapContainer result = LoginFormValidator.validateLogin(form);
-    if(!result.isEmpty()){
-      request.setAttribute("msg", result.get("msg"));
-      return "backend/login";
-    }
+//    MapContainer result = LoginFormValidator.validateLogin(form);
+//    if(!result.isEmpty()){
+//      request.setAttribute("msg", result.get("msg"));
+//      return "backend/login";
+//    }
 
     User user = userService.login(form.getUsername(), form.getPassword());
     if(user == null){
